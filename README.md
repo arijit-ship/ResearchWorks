@@ -8,12 +8,12 @@ The structure of each experiment directory may vary depending on the specific ex
 
 ```
 📂 works/
-    ├── experiment_1/
+    ├── experiment_name1/
     │   ├── raw_data.csv
     │   ├── processed_data.csv
     │   ├── analysis.ipynb
-    │   ├── code.zip  # Contains scripts for data generation and analysis
-    ├── experiment_2/
+    │   ├── code  # Contains scripts for data generation and analysis
+    ├── experiment_name2/
     │   ├── simulation_results.npy
     │   ├── figures/
     │   │   ├── plot1.png
@@ -24,7 +24,7 @@ The structure of each experiment directory may vary depending on the specific ex
 
 - **`works/`**: Contains all experimental and simulation data.
 - The contents of each experiment directory depend on the nature of the experiment.
-- Some experiments may include `code.zip`, raw datasets, processed data, scripts, figures, or Jupyter notebooks.
+- Some experiments may include `code`, raw datasets, processed data, scripts, figures, or Jupyter notebooks.
 
 ## Usage
 
@@ -66,5 +66,5 @@ This data is provided for academic and research purposes. Please check the `LICE
 
 ## Contact
 
-For inquiries or collaborations, feel free to contact me at [your email].
+For inquiries or collaborations, feel free to contact me at [NA].
 
