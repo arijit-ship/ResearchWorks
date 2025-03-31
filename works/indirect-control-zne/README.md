@@ -1,4 +1,4 @@
-# Table of contents
+# 1. Table of contents
 
 |Description|Link  |
 |--|--|
@@ -11,7 +11,7 @@
 
 
 
-# Indirect-Control VQE and ZNE Error Mitigation: How to use the code
+# 2. Indirect-Control VQE and ZNE Error Mitigation: How to use the code
 
 ## 🛠️ Installation
 
@@ -107,7 +107,7 @@ The program uses a YAML configuration file to define its parameters. Below is a 
    - Ensure that the method aligns with the desired sampling strategy for extrapolation.
 
 
-# Sample config.yml file
+# 3. Sample config.yml file
 
 The following is a sample of cofig.yml file.
 
