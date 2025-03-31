@@ -9,9 +9,9 @@
 |Further studies- Heisenberg multivariate Richardson ZNE, 3-point nonlinear Richardson ZNE |[Jupyter notebook](https://github.com/arijit-ship/ResearchWorks/blob/main/works/indirect-control-zne/experiments/experiment09/experimentBook.heisenbergansatz.ipynb), [Raw data (JSON)](https://github.com/arijit-ship/ResearchWorks/tree/main/works/indirect-control-zne/experiments/experiment09/experimental%20data/data)|
 |Code to reproduce experimental data|[indirect-zne](https://github.com/arijit-ship/ResearchWorks/tree/main/works/indirect-control-zne/code)|
 
-# How to use the code
 
-# Indirect-Control VQE and ZNE Error Mitigation
+
+# Indirect-Control VQE and ZNE Error Mitigation: How to use the code
 
 ## Installation
 
