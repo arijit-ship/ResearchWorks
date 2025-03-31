@@ -72,9 +72,9 @@ The program uses a YAML configuration file to define its parameters. Below is a 
 
 1. **Observable (Target Hamiltonian) Coefficients Overwritten**:
     - The coefficients are automatically overwritten based on the `observable.def` as follows: 
-        - 'custom': Not overwritten.
-        - 'ising': cn, bn, r are overwritten to `[0.5]`, `[1]`, `1`.
-        - 'heisenberg': Only cn is used (will NOT be overwritten); bn and r are not used.
+        - `custom`: Not overwritten.
+        - `ising`: cn, bn, r are overwritten to `[0.5]`, `[1]`, `1`.
+        - `heisenberg`: Only cn is used (will NOT be overwritten); bn and r are not used.
   
     Note: 'custom' and 'ising' are created using a Hamiltonian with terms XZ-Z (this is NOT any standard familier XY model, we call it 'Fancy XY-model Hamiltonian').
    
@@ -85,12 +85,12 @@ The program uses a YAML configuration file to define its parameters. Below is a 
 
 3. **VQE Ansatz Coefficients Overwritten**:
    - The coefficients are automatically overwritten based on the `vqe.ansatz.type` as follows:
-      - 'custom': Not overwritten.
-      - 'xy-iss': cn, bn, r are overwritten to [0.5], [0], 0.
-      - 'ising': cn, bn, r are overwritten to [0.5], [1], 1.
-      - 'heisenberg': Only cn is used (will NOT be overwritten); bn and r are not used.
+      - `custom`: Not overwritten.
+      - `xy-iss`: cn, bn, r are overwritten to [0.5], [0], 0.
+      - `ising`: cn, bn, r are overwritten to [0.5], [1], 1.
+      - `heisenberg`: Only cn is used (will NOT be overwritten); bn and r are not used.
 
-    Note: 'custom' and 'ising' are created using a Hamiltonian with terms XZ-Z (this is NOT any standard familier XY model, we call it 'Fancy XY-model Hamiltonian'). 
+    Note: `custom` and `ising` are created using a Hamiltonian with terms XZ-Z (this is NOT any standard familier XY model, we call it 'Fancy XY-model Hamiltonian'). 
 
 4. **Initialization of Parameters**:
    - The initial parameters for the ansatz are set to `random` by default (`vqe.ansatz.init_param: "random"`). If you need to modify the initialization method, ensure to update this value accordingly.
