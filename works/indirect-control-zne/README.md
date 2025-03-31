@@ -13,7 +13,7 @@
 
 # Indirect-Control VQE and ZNE Error Mitigation: How to use the code
 
-## Installation
+## 🛠️ Installation
 
 - **Python Version:** `3.11`  
 - To install dependencies, run:  
@@ -21,14 +21,14 @@
   pip install -r requirements.txt
   ```
 
-## Usage
+## ⚙️ Usage
 
 To run the program, use:  
   ```bash
   python3 main.py <config.yml>
   ```
 
-## Configuration Details
+## 📋 Configuration Details
 
 The program uses a YAML configuration file to define its parameters. Below is a detailed description of the configuration categories and their parameters:
 
@@ -76,7 +76,7 @@ The program uses a YAML configuration file to define its parameters. Below is a 
 |                                     | `data_points`                     | List of Lists                        | Provides the data points for extrapolation. Each entry contains several values, such as time and noise levels. Example: `[[12, 1, 0, 3, -3.3480294367352315], [20, 7, 10, 3, -0.05316450776222178], ...]`.                                   |
 
 
-## Warnings and Important Notes
+## ⚠️ Warnings and Important Notes
 
 1. **Observable (Target Hamiltonian) Coefficients Overwritten**:
    - For the `ising` Hamiltonian (`observable.def: "ising"`), the coefficients are automatically overwritten as follows:
